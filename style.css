@@ -4,3 +4,20 @@ body{
     font-weight: 500;
     line-height: 1.5;
 }
+
+section.time.div{
+    padding:0% 24px 36px 24px 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.times h2 :before {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    margin: 0 0.5em 0 0;
+    vertical-align: -0.05em;
+    transition: background-color 0.5s;
+}
