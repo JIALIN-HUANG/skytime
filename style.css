@@ -4,7 +4,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   width: 100%;
-  background: linear-gradient(90deg, #77BCEE 1.56%, rgba(255, 255, 255, 0) 100%), #CCE2F2;
+  height: 100vh;
+  background: linear-gradient(180deg, #77BCEE 1.56%, rgba(255, 255, 255, 0) 100%), #CCE2F2;
  
 }
 
