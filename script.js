@@ -85,27 +85,26 @@ document.body.addEventListener("keyup", (event) => {
     }
     if (randomNumber == 2) {
       alert("shanghai")
-      document.querySelector(".newyork").classList.add("active");
-      document.querySelector(".shanghai").classList.remove("active");
+      document.querySelector(".newyork").classList.remove("active");
+      document.querySelector(".shanghai").classList.add("active");
       document.querySelector(".tokyo").classList.remove("active");
       document.querySelector(".vancouver").classList.remove("active");
       updateTimes();
-  
     }
     if (randomNumber == 3) {
       alert("tokyo")
-      document.querySelector(".newyork").classList.add("active");
+      document.querySelector(".newyork").classList.remove("active");
       document.querySelector(".shanghai").classList.remove("active");
-      document.querySelector(".tokyo").classList.remove("active");
+      document.querySelector(".tokyo").classList.add("active");
       document.querySelector(".vancouver").classList.remove("active");
       updateTimes();
     }
     if (randomNumber == 4) {
       alert("vancouver")
-      document.querySelector(".newyork").classList.add("active");
+      document.querySelector(".newyork").classList.remove("active");
       document.querySelector(".shanghai").classList.remove("active");
       document.querySelector(".tokyo").classList.remove("active");
-      document.querySelector(".vancouver").classList.remove("active");
+      document.querySelector(".vancouver").classList.add("active");
       updateTimes();
     }
   }
