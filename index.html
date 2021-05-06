@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sky Looklike</title>
-
     <link rel="shortcut icon" type="image/png" href="./book.jpg" />
 
     <script src="https://moment.github.io/luxon/global/luxon.min.js"></script>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <!-- importing js script from other website -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
     <!-- my js script -->
     <script src="script.js" defer></script>
 </head>
 
-<body class="bo" >
+<body class="bo">
+    <div class="newyork item active" data-timezone="America/New_York">
+        <h2>New York</h2>
+        <output>00:00:00</output>
+    </div>
 
-    <!-- <button id="button">click me</button> -->
+    <div class="shanghai item" data-timezone="Asia/Shanghai">
+        <h2>Shanghai</h2>
+        <output>00:00:00</output>
+    </div>
 
-    <section class="time">
+    <div class="tokyo item" data-timezone="Asia/Tokyo">
+        <h2>Tokyo</h2>
+        <output>00:00:00</output>
+    </div>
 
-         <div class="newyork item" data-timezone="America/New_York">
-                <h2>New York</h2>
-                <output>00:00:00</output>
-        </div> 
-
-        <div class="shanghai item" data-timezone="Asia/Shanghai">
-            <h2>Shanghai</h2>
-            <output>00:00:00</output>
-        </div>
-
-        <div class="tokyo item" data-timezone="Asia/Tokyo">
-            <h2>Tokyo</h2>
-            <output>00:00:00</output>
-        </div>
-
-        <div class="vancouver item" data-timezone="Canada/Pacific">
-            <h2>Vancouver</h2>
-            <output>00:00:00</output>
-        </div> 
-    </section>
-
+    <div class="vancouver item" data-timezone="Canada/Pacific">
+        <h2>Vancouver</h2>
+        <output>00:00:00</output>
+    </div>
+    
 </body>
-
-
 </html>
